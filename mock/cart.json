@@ -1,0 +1,609 @@
+{
+  "message": "Get order list success",
+  "metadata": {
+    "total": 106,
+    "row": 10,
+    "page": 10
+  },
+  "data": [
+    {
+      "_id": "6427edeaaf9c7ede136eabc0",
+      "products": [
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "no",
+                    "price": "0"
+                  }
+                ]
+              },
+              {
+                "name": "jelly",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 2,
+          "_id": "6427edeaaf9c7ede136eabc1"
+        },
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 3,
+          "_id": "6427edeaaf9c7ede136eabc2"
+        }
+      ],
+      "subtotal": 50,
+      "tax": 12,
+      "serviceCharge": 8,
+      "discount": {
+        "_id": "6421920e4ec8f3b3e8aa1df3",
+        "promoCode": "PR0203",
+        "type": "percent/dollar",
+        "amount": 12
+      },
+      "total": 50,
+      "orderTime": "2023-04-01T08:40:10.210Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "retail"
+    },
+    {
+      "_id": "6427eda68a3e0a3343ad454d",
+      "products": [
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "no",
+                    "price": "0"
+                  }
+                ]
+              },
+              {
+                "name": "jelly",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 2,
+          "_id": "6427eda68a3e0a3343ad454e"
+        },
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 3,
+          "_id": "6427eda68a3e0a3343ad454f"
+        }
+      ],
+      "subtotal": 50,
+      "tax": 12,
+      "serviceCharge": 8,
+      "discount": {
+        "_id": "6421920e4ec8f3b3e8aa1df3",
+        "promoCode": "PR0203",
+        "type": "percent/dollar",
+        "amount": 12
+      },
+      "total": 50,
+      "orderTime": "2023-04-01T08:39:02.363Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "retail"
+    },
+    {
+      "_id": "640d936cef2e13551d2106a5",
+      "products": [
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "no",
+                    "price": "0"
+                  }
+                ]
+              },
+              {
+                "name": "jelly",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 2,
+          "_id": "640d936cef2e13551d2106a6"
+        },
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 3,
+          "_id": "640d936cef2e13551d2106a7"
+        }
+      ],
+      "subtotal": 50,
+      "tax": 14,
+      "serviceCharge": 8,
+      "discount": {
+        "type": "percent/dollar",
+        "amount": 12
+      },
+      "total": 50,
+      "orderTime": "2023-03-12T08:55:08.831Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "retail"
+    },
+    {
+      "_id": "640d9363ef2e13551d210699",
+      "products": [
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "no",
+                    "price": "0"
+                  }
+                ]
+              },
+              {
+                "name": "jelly",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  },
+                  {
+                    "image": "link s3",
+                    "name": "less",
+                    "price": "3.6"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 2,
+          "_id": "640d9363ef2e13551d21069a"
+        },
+        {
+          "product": {
+            "_id": "63f0eac20f061cc59c3ec593",
+            "name": "Coffee",
+            "image": "s3path",
+            "categories": ["Drinks"],
+            "tags": ["Drinks"],
+            "price": 7.2,
+            "description": "Coffee",
+            "variants": [
+              {
+                "name": "ice",
+                "options": [
+                  {
+                    "image": "link s3",
+                    "name": "more",
+                    "price": "7.2"
+                  }
+                ]
+              }
+            ]
+          },
+          "quantity": 3,
+          "_id": "640d9363ef2e13551d21069b"
+        }
+      ],
+      "subtotal": 50,
+      "tax": 12,
+      "serviceCharge": 8,
+      "discount": {
+        "type": "percent/dollar",
+        "amount": 12
+      },
+      "total": 50,
+      "orderTime": "2023-03-12T08:54:59.081Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "retail"
+    },
+    {
+      "_id": "63fe145b48134d9d214e900a",
+      "products": [
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "variant": "more ice",
+          "quantity": 2,
+          "_id": "63fe145b48134d9d214e900b"
+        },
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "quantity": 3,
+          "_id": "63fe145b48134d9d214e900c"
+        }
+      ],
+      "subtotal": 50,
+      "total": 50,
+      "orderTime": "2023-02-28T14:48:59.882Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "retail"
+    },
+    {
+      "_id": "63fe093848134d9d214e8ea4",
+      "products": [
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "variant": "more ice",
+          "quantity": 2,
+          "_id": "63fe093848134d9d214e8ea5"
+        },
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "quantity": 3,
+          "_id": "63fe093848134d9d214e8ea6"
+        }
+      ],
+      "subtotal": 50,
+      "total": 50,
+      "orderTime": "2023-02-28T14:01:28.482Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "retail"
+    },
+    {
+      "_id": "63fa37f048134d9d214e80a7",
+      "products": [
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "variant": "more ice",
+          "quantity": 2,
+          "_id": "63fa37f048134d9d214e80a8"
+        },
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "quantity": 3,
+          "_id": "63fa37f048134d9d214e80a9"
+        }
+      ],
+      "subtotal": 50.400000000000006,
+      "total": 50.400000000000006,
+      "orderTime": "2023-02-25T16:31:44.050Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "String"
+    },
+    {
+      "_id": "63fa2d3556af7ef334e3d0a4",
+      "products": [
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "variant": "more ice",
+          "quantity": 2,
+          "_id": "63fa2d3556af7ef334e3d0a5"
+        },
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "quantity": 1,
+          "_id": "63fa2d3556af7ef334e3d0a6"
+        }
+      ],
+      "subtotal": 19.5,
+      "total": 1,
+      "orderTime": "2023-02-25T15:45:57.793Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "String"
+    },
+    {
+      "_id": "63fa2d02dc12c73d2f40672c",
+      "products": [
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "variant": "more ice",
+          "quantity": 2,
+          "_id": "63fa2d02dc12c73d2f40672d"
+        },
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "quantity": 1,
+          "_id": "63fa2d02dc12c73d2f40672e"
+        }
+      ],
+      "subtotal": 19.5,
+      "total": 1,
+      "orderTime": "2023-02-25T15:45:06.230Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "String"
+    },
+    {
+      "_id": "63fa2cd8f4b0126726c4aa57",
+      "products": [
+        {
+          "product": "63f0eac20f061cc59c3ec593",
+          "variant": "more ice",
+          "quantity": 2,
+          "_id": "63fa2cd8f4b0126726c4aa58"
+        }
+      ],
+      "subtotal": 19.5,
+      "total": 1,
+      "orderTime": "2023-02-25T15:44:24.507Z",
+      "createdUser": {
+        "_id": "63fa1cfb4751a9340225b484",
+        "email": "user231213212132@gm.com",
+        "password": "$2b$10$SPlcr0rLNzeR8dgfWBLnZuSj3npmnQh/q3lhFqpPdmuAHa/cLxxC.",
+        "firstName": "fn",
+        "lastName": "ln",
+        "role": "63e8ee7d91b5e38b5e8e5173",
+        "isDeleted": true
+      },
+      "outletId": null,
+      "kindOfPayment": "String",
+      "referenceId": "String",
+      "type": "String"
+    }
+  ]
+}

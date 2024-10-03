@@ -1,0 +1,112 @@
+{
+  "message": "Get settings success",
+  "data": [
+    {
+      "_id": "64218e5ab16450577af837af",
+      "name": "GST",
+      "description": "Good & Service Tax",
+      "value": "25"
+    },
+    {
+      "_id": "64218e62b16450577af837b1",
+      "name": "ST",
+      "description": "Service Tax",
+      "value": "12"
+    },
+    {
+      "_id": "644e293734e0b8fbe177d681",
+      "name": "Ratio",
+      "description": "Membership Point Ratio",
+      "value": [
+        {
+          "name": "unit",
+          "value": 1
+        },
+        {
+          "name": "points",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "_id": "646a3972ad10bd9aedef4406",
+      "name": "Tier",
+      "description": "Membership Tier",
+      "value": [
+        {
+          "title": "Gold",
+          "points": "300",
+          "color": "bg-yellow-400",
+          "label": "Star"
+        },
+        {
+          "title": "Silver",
+          "points": "200",
+          "color": "bg-slate-300",
+          "label": "Medal"
+        },
+        {
+          "title": "Green",
+          "points": "0",
+          "color": "bg-green-500",
+          "label": "Leaf"
+        }
+      ]
+    },
+    {
+      "_id": "646a3d17739921164c5bea8a",
+      "name": "TTL",
+      "description": "Table time limit",
+      "value": "12000"
+    },
+    {
+      "_id": "6472235f1d14c94b999c44d6",
+      "name": "DTL",
+      "description": "Dining time limit",
+      "value": 12000
+    },
+    {
+      "_id": "64844a9896b372cb3826c623",
+      "name": "DC",
+      "description": "Default Currency",
+      "value": {
+        "unit": "SGD",
+        "options": [
+          {
+            "unit": "SGD"
+          },
+          {
+            "unit": "VND"
+          },
+          {
+            "unit": "USD"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "648580553d7d1460f428d543",
+      "name": "Invoice prefix",
+      "description": "InvoiceId prefix",
+      "value": "APR"
+    },
+    {
+      "_id": "6486db258aef628fc17ae3e6",
+      "name": "RN",
+      "description": "Restaurant Name",
+      "value": "Apron"
+    },
+    {
+      "_id": "6486dbb18aef628fc17ae436",
+      "name": "RL",
+      "description": "Restaurant Logo",
+      "value": "images/375906280_719559860209730_7818262553206137779_n.jpg"
+    },
+    {
+      "_id": "64f6ea1a6fe98ad5051518fd",
+      "name": "BL",
+      "description": "Banner limit",
+      "value": 3
+    }
+  ]
+}

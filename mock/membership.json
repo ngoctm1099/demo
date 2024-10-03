@@ -1,0 +1,156 @@
+{
+  "message": "Get membership list success",
+  "metadata": {
+    "total": 57,
+    "row": 10,
+    "page": 6
+  },
+  "data": [
+    {
+      "_id": "647bfa31098df7ad51676136",
+      "membershipId": "MBS*******006",
+      "memberPoints": 0,
+      "totalMemberPoints": 0,
+      "tier": {
+        "title": "Green",
+        "points": "0",
+        "color": "bg-green-500",
+        "label": "Leaf"
+      },
+      "user": null,
+      "id": "647bfa31098df7ad51676136"
+    },
+    {
+      "_id": "6472ceab1d14c94b999c474c",
+      "membershipId": "MBS*456",
+      "memberPoints": 2.5,
+      "totalMemberPoints": 100,
+      "tier": {
+        "title": "Green",
+        "points": "0",
+        "color": "bg-green-500",
+        "label": "Leaf"
+      },
+      "user": {
+        "kycLevel": 0,
+        "_id": "6472d78d1d14c94b999c47cc",
+        "email": "ngoctm22x@gm.com",
+        "phoneNumber": "+84904520324",
+        "firstName": "Ngoc",
+        "lastName": "Truong",
+        "membership": "6472ceab1d14c94b999c474c"
+      },
+      "id": "6472ceab1d14c94b999c474c"
+    },
+    {
+      "_id": "6472cea11d14c94b999c474a",
+      "membershipId": "MBS*345",
+      "memberPoints": 2.5,
+      "totalMemberPoints": 250,
+      "tier": {
+        "title": "Silver",
+        "points": "200",
+        "color": "bg-slate-300",
+        "label": "Medal"
+      },
+      "user": {
+        "kycLevel": 0,
+        "_id": "64718089daf673c46737e7f4",
+        "email": "vietanht2x@apron.sg",
+        "phoneNumber": "+84904520324",
+        "firstName": "Anh",
+        "lastName": "Tran",
+        "membership": "6472cea11d14c94b999c474a"
+      },
+      "id": "6472cea11d14c94b999c474a"
+    },
+    {
+      "_id": "6472ce981d14c94b999c4748",
+      "membershipId": "MBS*234",
+      "memberPoints": 15,
+      "totalMemberPoints": 0,
+      "tier": {
+        "title": "Green",
+        "points": "0",
+        "color": "bg-green-500",
+        "label": "Leaf"
+      },
+      "user": {
+        "kycLevel": 0,
+        "_id": "64718099daf673c46737e7f6",
+        "email": "test@gm.com",
+        "phoneNumber": "+84 904520769",
+        "firstName": "Linh",
+        "lastName": "Tran",
+        "membership": "6472ce981d14c94b999c4748"
+      },
+      "id": "6472ce981d14c94b999c4748"
+    },
+    {
+      "_id": "6469ed55daf673c46737d281",
+      "membershipId": "MBS*102",
+      "memberPoints": 2.5,
+      "totalMemberPoints": 321,
+      "tier": {
+        "title": "Gold",
+        "points": "300",
+        "color": "bg-yellow-400",
+        "label": "Star"
+      },
+      "user": {
+        "kycLevel": 0,
+        "_id": "646a428bdaf673c46737da27",
+        "email": "vietanht3@apron.sg",
+        "phoneNumber": "+84 904520769",
+        "firstName": "Anh",
+        "lastName": "Truong",
+        "membership": "6469ed55daf673c46737d281"
+      },
+      "id": "6469ed55daf673c46737d281"
+    },
+    {
+      "totalMemberPoints": 0,
+      "_id": "6469ebeadaf673c46737d254",
+      "membershipId": "MBS*011",
+      "memberPoints": 30.5,
+      "tier": {
+        "title": "Green",
+        "points": "0",
+        "color": "bg-green-500",
+        "label": "Leaf"
+      },
+      "user": {
+        "kycLevel": 0,
+        "_id": "6474b116ad3b51e9339d0084",
+        "email": "ngoctm6x@gm.com",
+        "phoneNumber": "+84904520324",
+        "firstName": "Er",
+        "lastName": "An",
+        "membership": "6469ebeadaf673c46737d254"
+      },
+      "id": "6469ebeadaf673c46737d254"
+    },
+    {
+      "totalMemberPoints": 0,
+      "_id": "6469eb6bdaf673c46737d238",
+      "membershipId": "MBS*201",
+      "memberPoints": 12.5,
+      "tier": {
+        "title": "Green",
+        "points": "0",
+        "color": "bg-green-500",
+        "label": "Leaf"
+      },
+      "user": {
+        "kycLevel": 0,
+        "_id": "6472ce001d14c94b999c473b",
+        "email": "ngoctm@apron.sg",
+        "phoneNumber": "+84 904520769",
+        "firstName": "Ngoc",
+        "lastName": "Tran",
+        "membership": "6469eb6bdaf673c46737d238"
+      },
+      "id": "6469eb6bdaf673c46737d238"
+    }
+  ]
+}

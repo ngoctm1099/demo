@@ -1,0 +1,50 @@
+{
+  "message": "Get discount list success",
+  "metadata": {
+    "total": 4,
+    "row": 10,
+    "page": 1
+  },
+  "data": [
+    {
+      "_id": "6421920e4ec8f3b3e8aa1df3",
+      "name": "Dis 4",
+      "type": "Fixed Amount",
+      "amount": 25,
+      "startDate": "2023-04-06T17:00:00.000Z",
+      "endDate": "2023-04-20T17:00:00.000Z",
+      "quantity": 10,
+      "promoCode": "PR0203"
+    },
+    {
+      "_id": "64218f7e4ec8f3b3e8aa1dd8",
+      "name": "Dis 1",
+      "type": "Percent",
+      "amount": 25,
+      "startDate": "2023-03-26T17:00:00.000Z",
+      "endDate": "2023-03-27T17:00:00.000Z",
+      "quantity": 0,
+      "promoCode": "PR27031"
+    },
+    {
+      "_id": "642161054ec8f3b3e8aa1ca7",
+      "name": "Dis 3",
+      "type": "Percent",
+      "amount": 13,
+      "startDate": "2023-03-26T17:00:00.000Z",
+      "endDate": "2023-03-30T17:00:00.000Z",
+      "quantity": 10,
+      "promoCode": "PR27033"
+    },
+    {
+      "_id": "6421043b22c2d7248c3fc2c3",
+      "name": "Dis 2",
+      "type": "Percent",
+      "amount": 10,
+      "startDate": "2023-04-03T17:00:00.000Z",
+      "endDate": "2023-04-10T17:00:00.000Z",
+      "quantity": 19,
+      "promoCode": "PR0102"
+    }
+  ]
+}

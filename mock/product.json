@@ -1,0 +1,270 @@
+{
+  "message": "get product success",
+  "metadata": {
+    "row": 10,
+    "total": 17,
+    "page": 2
+  },
+  "data": [
+    {
+      "_id": "640c8740ef2e13551d2102ea",
+      "name": "Cake 2",
+      "image": "images/6.jpg",
+      "categories": ["Foods"],
+      "tags": ["Foods"],
+      "price": 7.2,
+      "description": "Coffee",
+      "variants": [
+        {
+          "name": "ice",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "no",
+              "price": "0"
+            }
+          ]
+        },
+        {
+          "name": "jelly",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6409a881ef2e13551d20f7b1",
+      "name": "Coffee 3",
+      "image": "images/3.jpg",
+      "categories": ["Drinks"],
+      "tags": ["Drinks"],
+      "price": 7.2,
+      "description": "Coffee",
+      "variants": [
+        {
+          "name": "ice",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "no",
+              "price": "0"
+            }
+          ]
+        },
+        {
+          "name": "jelly",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6409a879ef2e13551d20f7ad",
+      "name": "Coffee 2",
+      "image": "images/3.jpg",
+      "categories": ["Drinks"],
+      "tags": ["Drinks"],
+      "price": 7.2,
+      "description": "Coffee",
+      "variants": [
+        {
+          "name": "ice",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "no",
+              "price": "0"
+            }
+          ]
+        },
+        {
+          "name": "jelly",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6409a871ef2e13551d20f7a9",
+      "name": "Coffee 1",
+      "image": "images/3.jpg",
+      "categories": ["Drinks"],
+      "tags": ["Drinks"],
+      "price": 7.2,
+      "description": "Coffee",
+      "variants": [
+        {
+          "name": "ice",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "no",
+              "price": "0"
+            }
+          ]
+        },
+        {
+          "name": "jelly",
+          "options": [
+            {
+              "image": "images/6.jpg",
+              "name": "more",
+              "price": "7.2"
+            },
+            {
+              "image": "images/6.jpg",
+              "name": "less",
+              "price": "3.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6408a0bcef2e13551d20df7a",
+      "name": "Candies",
+      "image": "images/4.jpg",
+      "categories": ["Drinks"],
+      "tags": ["Toppings"],
+      "price": 25,
+      "description": "",
+      "variants": [
+        {
+          "name": "jelly",
+          "options": [
+            {
+              "image": "images/96E06E3D-EB2D-4E16-B08EE125A513615F.jpg",
+              "name": "medium",
+              "price": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6406f767ef2e13551d20b857",
+      "name": "Pancake",
+      "image": "images/3.jpg",
+      "categories": ["Foods"],
+      "tags": ["Foods"],
+      "price": 12,
+      "description": "",
+      "variants": [
+        {
+          "name": "ice",
+          "options": [
+            {
+              "id": "5b315ecc-bca9-47f3-ba53-9be305f073a6",
+              "image": "images/96E06E3D-EB2D-4E16-B08EE125A513615F.jpg",
+              "name": "more",
+              "price": "7"
+            },
+            {
+              "image": "images/2.jpg",
+              "name": "less",
+              "price": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6405d8fbef2e13551d209892",
+      "name": "Crepes",
+      "image": "images/6.jpg",
+      "categories": ["Foods"],
+      "tags": ["Foods"],
+      "price": 15,
+      "description": "",
+      "variants": [
+        {
+          "name": "ICE",
+          "options": [
+            {
+              "id": "462233ce-bd27-40e7-be4f-90e1edee442c",
+              "price": "7",
+              "name": "more",
+              "image": "images/96E06E3D-EB2D-4E16-B08EE125A513615F.jpg"
+            },
+            {
+              "id": "b583f294-3d1b-4b2b-90cf-9909d2cd1d8b",
+              "image": "images/96E06E3D-EB2D-4E16-B08EE125A513615F.jpg",
+              "name": "less",
+              "price": "3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

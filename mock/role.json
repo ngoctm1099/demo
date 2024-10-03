@@ -1,0 +1,41 @@
+{
+  "message": "Get roles success",
+  "data": [
+    {
+      "_id": "63e8ee7d91b5e38b5e8e5173",
+      "role": "Admin",
+      "roleValues": ["11111", "11111", "10000", "10000", "10000", "10000", "10000", "10000", "10000"],
+      "associatedAccounts": 18
+    },
+    {
+      "_id": "63e8eeb791b5e38b5e8e517a",
+      "role": "Restaurant Manager",
+      "roleValues": ["00000", "00000", "11111", "11111", "11111", "11111", "11111", "11111", "00000"],
+      "associatedAccounts": 15
+    },
+    {
+      "_id": "63e8eec691b5e38b5e8e517f",
+      "role": "Super Admin",
+      "roleValues": ["11111", "11111", "11111", "11111", "11111", "11111", "11111", "11111", "11111"],
+      "associatedAccounts": 39
+    },
+    {
+      "_id": "64e3684bd91c13a1074f4bb8",
+      "role": "test2",
+      "roleValues": ["00000"],
+      "associatedAccounts": 2
+    },
+    {
+      "_id": "64e36c4e090dec14c6758aef",
+      "role": "test 1",
+      "roleValues": ["11111", "11111", "00000", "00000", "00000", "00000", "00000", "00000", "00000"],
+      "associatedAccounts": 0
+    },
+    {
+      "_id": "64e36ef0090dec14c6758b4d",
+      "role": "test new role",
+      "roleValues": ["11111", "11111", "11000", "11111", "11111", "00000", "00000", "00000", "00000"],
+      "associatedAccounts": 0
+    }
+  ]
+}
