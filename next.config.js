@@ -23,8 +23,11 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/hermes/api/:path*",
-        destination: "https://hermes.gustforward.com/api/:path*", // Proxy to Backend
+        // source: "/hermes/api/:path*",
+        // destination: "https://hermes.gustforward.com/api/:path*", // Proxy to Backend
+        source: "/",
+        destination: "/",
+        permanent: false,
       },
     ];
   },
@@ -41,8 +44,4 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-module.exports = withSentryConfig(
-  module.exports,
-  { silent: true },
-  { hideSourcemaps: true }
-);
+module.exports = withSentryConfig(module.exports, { silent: true }, { hideSourcemaps: true });
