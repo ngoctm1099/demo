@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@gf/gfd": "^1.0.0",
-    "@gf/hermes": "^1.0.87",
     "@hookform/resolvers": "^2.9.10",
     "@lokalise/node-api": "^9.8.0",
     "@next/font": "13.0.7",
