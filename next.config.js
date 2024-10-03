@@ -19,18 +19,6 @@ const nextConfig = {
       },
     ],
   },
-  transpilePackages: ["@gf/gfd"],
-  async rewrites() {
-    return [
-      {
-        // source: "/hermes/api/:path*",
-        // destination: "https://hermes.gustforward.com/api/:path*", // Proxy to Backend
-        source: "/",
-        destination: "/",
-        permanent: false,
-      },
-    ];
-  },
   async redirects() {
     return [
       {
