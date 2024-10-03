@@ -14,7 +14,7 @@ import { post } from "../../library/apiService";
 import addProductSchema from "../../src/components/features/Products/AddProduct/addProductSchema";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/router";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../src/utils/string";
 
 const AddProduct = () => {
   const router = useRouter();

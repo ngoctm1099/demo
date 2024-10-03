@@ -10,7 +10,7 @@ import { defaultOutlet, OutletProps } from "../../../../../constant/defaultValue
 import Form from "../../../../Form";
 import Modal from "../../../../Modal";
 import editOutletSchema from "./EditOutletSchema";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../../utils/string";
 
 interface EditOutletFormProps {
   openModal: boolean;

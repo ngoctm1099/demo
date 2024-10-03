@@ -22,7 +22,7 @@ import { retrieveFileFromS3 } from "../src/utils/s3File";
 import { exportCSVToFile } from "../src/utils";
 import { END_POINTS } from "../src/constant/endpoints";
 import { authorizeFeatures } from "../src/utils/authorization";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../src/utils/string";
 
 const mapStateToProps = state => ({ user: state.userReducers.user });
 

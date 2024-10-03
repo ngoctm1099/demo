@@ -8,7 +8,7 @@ import { DiscountProps } from "../../../../constant/defaultValues";
 import Form from "../../../Form";
 import Modal from "../../../Modal";
 import editDiscountSchema from "./editDiscountSchema";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 interface EditUserFormProps {
   openModal: boolean;

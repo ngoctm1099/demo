@@ -9,7 +9,7 @@ import { userActions } from "../redux/actions";
 import Form from "../src/components/Form";
 import { useEffect } from "react";
 import Image from "next/image";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../src/utils/string";
 
 const mapStateToProps = state => ({
   user: state.userReducers.user,

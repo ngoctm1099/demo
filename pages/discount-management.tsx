@@ -24,7 +24,7 @@ import { retrieveFileFromS3 } from "../src/utils/s3File";
 import { exportCSVToFile } from "../src/utils";
 import { authorizeFeatures } from "../src/utils/authorization";
 import { useDelaySearch } from "../src/hooks/useDelaySearch";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../src/utils/string";
 
 const mapStateToProps = state => ({
   user: state.userReducers.user,

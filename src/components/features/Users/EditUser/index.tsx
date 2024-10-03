@@ -7,7 +7,7 @@ import { put } from "../../../../../library/apiService";
 import Form from "../../../Form";
 import Modal from "../../../Modal";
 import editUserSchema from "./editUserSchema";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 interface EditUserFormProps {
   roles: any;

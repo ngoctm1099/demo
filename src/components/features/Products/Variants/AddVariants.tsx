@@ -7,7 +7,7 @@ import Card from "../../../Card";
 import Checkbox from "../../../Checkbox";
 import Variants from "../../../Form/Variants";
 import Input from "../../../Input";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 interface AddVariantsProps {
   index: number;

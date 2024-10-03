@@ -10,7 +10,7 @@ import Checkbox from "../../../Checkbox";
 import Input from "../../../Input";
 import Modal from "../../../Modal";
 import Table from "../../../Table/Table";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 interface EditRoleFormProps {
   open: boolean;

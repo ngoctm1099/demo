@@ -23,7 +23,7 @@ import { withLoading } from "../Loading/withLoading";
 import { motion } from "framer-motion";
 import { useBackgroundClick } from "../../hooks/useBackgroundClick";
 import { IoMdClose } from "react-icons/io";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../utils/string";
 
 const menuIconBtns = [
   {

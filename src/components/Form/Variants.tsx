@@ -7,7 +7,7 @@ import { AiOutlineDelete } from "react-icons/ai";
 import { convertKeyToImage } from "../../utils/s3File";
 import Button from "../Button";
 import Input from "../Input";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../utils/string";
 
 interface VariantsProps {
   variantIndex: number;

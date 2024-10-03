@@ -9,7 +9,7 @@ import Button from "../../../Button";
 import Input from "../../../Input";
 import Select from "../../../Select";
 import { convertKeyToImage, uploadFileToS3 } from "../../../../utils/s3File";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 const GeneralSettings = ({ settings }) => {
   const [data, setData] = useState<any>();

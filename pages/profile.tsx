@@ -12,7 +12,7 @@ import { put } from "../library/apiService";
 import { userActions } from "../redux/actions";
 import { connect } from "react-redux";
 import { languageCodes } from "../src/constant/regionCodes";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../src/utils/string";
 
 const mapStateToProps = state => ({
   user: state.userReducers.user,

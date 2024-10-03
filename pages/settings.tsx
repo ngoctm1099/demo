@@ -11,7 +11,7 @@ import { LiaImageSolid } from "react-icons/lia";
 import Membership from "../src/components/features/Settings/Membership";
 import GeneralSettings from "../src/components/features/Settings/GeneralSettings";
 import Banner from "../src/components/features/Settings/Banner";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../src/utils/string";
 
 const mapStateToProps = state => ({
   user: state.userReducers.user,

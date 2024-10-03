@@ -23,7 +23,7 @@ import { getSocket } from "../src/services/socket";
 import { retrieveFileFromS3 } from "../src/utils/s3File";
 import { END_POINTS } from "../src/constant/endpoints";
 import { exportCSVToFile } from "../src/utils";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../src/utils/string";
 import { authorizeFeatures } from "../src/utils/authorization";
 import { useDelaySearch } from "../src/hooks/useDelaySearch";
 

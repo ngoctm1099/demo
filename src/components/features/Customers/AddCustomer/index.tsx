@@ -7,7 +7,7 @@ import Form from "../../../Form";
 import Modal from "../../../Modal";
 import customerSchema from "../customerSchema";
 import { defaultCustomer } from "../../../../constant/defaultValues";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 interface AddCustomerFormProps {
   openModal: boolean;

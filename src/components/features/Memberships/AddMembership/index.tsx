@@ -7,7 +7,7 @@ import Form from "../../../Form";
 import Modal from "../../../Modal";
 import membershipSchema from "../membershipSchema";
 import { defaultMembership } from "../../../../constant/defaultValues";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 interface AddMembershipFormProps {
   openModal: boolean;

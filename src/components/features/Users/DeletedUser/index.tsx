@@ -7,11 +7,10 @@ import { BsCheckCircleFill, BsXCircleFill } from "react-icons/bs";
 import Table from "../../../Table/Table";
 import Pagination from "../../../Pagination";
 import Button from "../../../Button";
-import { upperCaseFirstLetterOfEachWord } from "../../../../utils/string";
+import { toLocales, upperCaseFirstLetterOfEachWord } from "../../../../utils/string";
 import { toast } from "react-toastify";
 import classNames from "classnames";
 import { MdDeleteForever, MdOutlineRestore } from "react-icons/md";
-import { toLocales } from "@gf/hermes";
 
 interface DeletedUsersModalProps {
   openDeletedUserModal: boolean;

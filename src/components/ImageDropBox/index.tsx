@@ -6,7 +6,7 @@ import classnames from "classnames";
 import Button from "../Button";
 import { AiOutlineDelete } from "react-icons/ai";
 import { convertKeyToImage } from "../../utils/s3File";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../utils/string";
 
 const ImageDropBox = ({ images, limit, setImages, onClickDeleteIcon }) => {
   const [imageBlobs, setImageBlobs] = useState([]);

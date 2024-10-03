@@ -6,7 +6,7 @@ import { post } from "../../../../../library/apiService";
 import Form from "../../../Form";
 import Modal from "../../../Modal";
 import addUserSchema from "./addUserSchema";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 interface AddUserFormProps {
   roles: any;

@@ -18,7 +18,7 @@ import { connect } from "react-redux";
 import UnderlineInput from "../../src/components/Input/UnderlineInput";
 import DeleteGuestModal from "../../src/components/features/Orders/DeleteGuest";
 import AddGuestForm from "../../src/components/features/Orders/AddGuest";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../src/utils/string";
 
 const mapStateToProps = state => ({ user: state.userReducers.user, socket: state.socketReducers });
 

@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import Modal from "../../../Modal";
 import { get, put } from "../../../../../library/apiService";
 import ImageDropBox from "../../../ImageDropBox";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 const Banner = ({ bannerLimit }) => {
   const [bannerImages, setBannerImages] = useState([]);

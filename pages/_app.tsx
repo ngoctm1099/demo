@@ -3,7 +3,6 @@ import { Provider } from "react-redux";
 import Layout from "../src/components/layout";
 import { persistor, store } from "../redux";
 import { PersistGate } from "redux-persist/integration/react";
-import { TranslationProvider } from "@gf/hermes";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/globals.css";
@@ -18,17 +17,15 @@ export default function App({ Component, pageProps }) {
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <main>
-            <TranslationProvider projectId="web_apron" env="production">
-              <Layout withSidebar={Component.withSidebar}>
-                <Component {...pageProps} />
-                <ToastContainer
-                  autoClose={2000}
-                  closeButton={false}
-                  toastClassName="text-xs sm:text-sm"
-                  hideProgressBar={true}
-                />
-              </Layout>
-            </TranslationProvider>
+            <Layout withSidebar={Component.withSidebar}>
+              <Component {...pageProps} />
+              <ToastContainer
+                autoClose={2000}
+                closeButton={false}
+                toastClassName="text-xs sm:text-sm"
+                hideProgressBar={true}
+              />
+            </Layout>
           </main>
         </PersistGate>
       </Provider>

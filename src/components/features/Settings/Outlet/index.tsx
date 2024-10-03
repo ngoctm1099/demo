@@ -4,7 +4,7 @@ import Button from "../../../Button";
 import Pagination from "../../../Pagination";
 import Table from "../../../Table/Table";
 import EditOutletForm from "./EditOutletForm";
-import { toLocales } from "@gf/hermes";
+import { toLocales } from "../../../../utils/string";
 
 const Outlet = ({ outletData, user, totalOutlet, currentOutletPage, setCurrentOutletPage }) => {
   const [outletRows, setOutletRows] = useState<any>([]);
